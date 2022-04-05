@@ -1,0 +1,10 @@
+.search-bar form label {
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.search-bar form label span {
+    color: #fff;
+    margin-right: 10px;
+}

@@ -1,0 +1,27 @@
+.recipe {
+    background-color: #fff;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 2rem;
+}
+
+.recipe h1 {
+    color: #333;
+}
+
+.recipe ul {
+    color: #999;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 20px
+}
+
+.recipe ul li {
+    margin-right: 20px;
+}
+
+.recipe .cooking-time {
+    text-align: center;
+}

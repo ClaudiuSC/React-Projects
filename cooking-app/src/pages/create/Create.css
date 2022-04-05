@@ -1,0 +1,36 @@
+.create {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.create form * {
+    margin-bottom: 15px;
+}
+
+.create .btn {
+    font-size: inherit;
+    font-family: inherit;
+    border: none;
+    color: #fff;
+    background-color: #8a2be2;
+    padding: .5rem 2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 30px auto;
+}
+
+.create .ingredients {
+    display: flex;
+    position: relative;
+}
+
+.create .ingredients * {
+    margin: 0;
+}
+
+.create .ingredients .btn {
+    font-size: 1rem;
+    margin-left: 1rem;
+    white-space: nowrap;
+}

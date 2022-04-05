@@ -1,0 +1,42 @@
+.navbar {
+    background-color: #8a2be2;
+    padding: 1rem;
+}
+
+.navbar nav {
+    display: flex;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .btn {
+    border: 1px solid #fff;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}
+
+.navbar .btn:hover {
+    color: #8a2be2;
+    background-color: #fff;
+}
+
+.navbar .logo {
+    margin-right: auto;
+}
+
+
+@media (max-width: 600px) {
+    .navbar nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar nav * {
+        margin-bottom: 10px;
+    }
+}
